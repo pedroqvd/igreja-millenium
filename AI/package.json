@@ -1,0 +1,41 @@
+{
+  "name": "igreja-millenium",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site oficial da Igreja Millenium Brasília - Conectar • Despertar • Transformar",
+  "author": "Pedro Quevedo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedroqvd/igreja-millenium.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "claude-update": "node scripts/claude-integration.js",
+    "claude-context": "node scripts/claude-integration.js && cat .github/CLAUDE_CONTEXT.md",
+    "claude-quick": "node -e \"console.log('🤖 QUICK CONTEXT:\\nhttps://github.com/pedroqvd/igreja-millenium\\nhttps://github.com/pedroqvd/igreja-millenium/blob/main/.github/claude-config.json')\"",
+    "deploy-check": "npm run build && npm run claude-update",
+    "project-status": "node scripts/claude-integration.js",
+    "setup-claude": "node -e \"console.log('✅ Claude Integration ready! Use: npm run claude-update')\""
+  },
+  "dependencies": {
+    "next": "14.0.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3"
+  },
+  "keywords": [
+    "igreja",
+    "church",
+    "millenium",
+    "brasilia",
+    "next.js",
+    "claude-ai"
+  ]
+}

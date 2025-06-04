@@ -1,0 +1,177 @@
+{
+  "project": {
+    "name": "Igreja Millenium Brasília",
+    "description": "Site oficial da Igreja Millenium - Conectar • Despertar • Transformar",
+    "repository": "pedroqvd/igreja-millenium",
+    "owner": "pedroqvd",
+    "type": "church_website",
+    "framework": "Next.js",
+    "deployment": {
+      "platform": "vercel",
+      "auto_deploy": true,
+      "current_url": "https://igreja-millenium-123-git-main-pedro-quevedos-projects.vercel.app",
+      "domain_target": "igrejamillenium.com.br"
+    }
+  },
+
+  "branding": {
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "accent": "#CCCCCC"
+    },
+    "fonts": {
+      "primary": "Arial Black",
+      "secondary": "Arial",
+      "weight": "900"
+    },
+    "logo": {
+      "type": "M_with_cross",
+      "description": "Letra M branca em quadrado preto com cruz no topo",
+      "style": "minimalist_modern"
+    },
+    "tagline": "CONECTAR • DESPERTAR • TRANSFORMAR"
+  },
+
+  "stack": {
+    "frontend": {
+      "framework": "Next.js",
+      "version": "14.0.3",
+      "language": "JavaScript",
+      "styling": "CSS-in-JS",
+      "ui_library": "None (Custom CSS)"
+    },
+    "backend": {
+      "type": "Static/JAMstack",
+      "api": "Next.js API Routes (planned)",
+      "database": "None (localStorage for now)"
+    },
+    "deployment": {
+      "platform": "Vercel",
+      "ci_cd": "GitHub Actions",
+      "domain": "Custom domain planned"
+    }
+  },
+
+  "structure": {
+    "pages": [
+      "pages/index.js"
+    ],
+    "components": [],
+    "public": [
+      "favicon (SVG inline)",
+      "manifest.json (planned)"
+    ],
+    "config": [
+      "package.json",
+      "next.config.js",
+      ".github/claude-config.json"
+    ]
+  },
+
+  "features": {
+    "implemented": [
+      "Modern homepage design",
+      "Church branding and identity",
+      "Responsive layout", 
+      "SEO meta tags",
+      "SVG favicon with church logo",
+      "Contact information display",
+      "Service times display"
+    ],
+    "in_progress": [
+      "Claude AI Integration",
+      "Repository recreation"
+    ],
+    "planned": [
+      "Prayer request system",
+      "PIX donation integration",
+      "Happy Hours registration",
+      "Member portal",
+      "Event calendar",
+      "YouTube integration",
+      "PWA functionality",
+      "Admin dashboard",
+      "WhatsApp integration"
+    ]
+  },
+
+  "church_info": {
+    "name": "Igreja Millenium Brasília",
+    "founded": "2017",
+    "motto": "Plantando a cultura do céu na terra", 
+    "tagline": "Igreja preferida da geração Millenium",
+    "contact": {
+      "phone": "(61) 99966-8383",
+      "email": "contato@igrejamillenium.com.br",
+      "address": "CRS 504 Bloco C, Loja 5, Asa Sul - DF"
+    },
+    "services": {
+      "sunday_morning": "9h",
+      "sunday_evening": "18h", 
+      "wednesday": "19h30"
+    },
+    "social": {
+      "youtube_main": "@milleniumigrejae",
+      "youtube_youth": "@mlclub1",
+      "instagram": "@milleniumbrasilia"
+    }
+  },
+
+  "current_status": {
+    "build_status": "failing",
+    "last_error": "Identifier 'Home' has already been declared (338:24)",
+    "last_commit": "8383f6f",
+    "last_commit_message": "Unknown",
+    "branch": "main",
+    "current_issues": [
+      "Duplicate function declaration causing build failure",
+      "Changes not being committed properly",
+      "Repository possibly corrupted"
+    ],
+    "solution_in_progress": "Complete repository recreation with clean codebase",
+    "priorities": [
+      "1. Fix build errors (duplicate function)",
+      "2. Successful Vercel deployment", 
+      "3. Implement Claude Integration",
+      "4. Add prayer system",
+      "5. Add PIX donations"
+    ]
+  },
+
+  "claude_integration": {
+    "version": "1.0",
+    "enabled": true,
+    "last_updated": "2024-06-04",
+    "auto_context": true,
+    "features": {
+      "auto_status_detection": true,
+      "issue_analysis": true,
+      "build_monitoring": true,
+      "suggestion_engine": true
+    },
+    "commands": {
+      "analyze": "Analyzes current project status",
+      "debug": "Identifies and suggests fixes for issues", 
+      "update": "Updates configuration with latest changes",
+      "deploy": "Checks deployment readiness"
+    }
+  },
+
+  "development": {
+    "environment": "Production",
+    "testing": "Manual",
+    "code_quality": "ESLint",
+    "version_control": "Git/GitHub",
+    "issue_tracking": "GitHub Issues",
+    "documentation": "README.md + .github files"
+  },
+
+  "metadata": {
+    "created": "2024-06-04",
+    "last_updated": "2024-06-04", 
+    "update_frequency": "On every major change",
+    "maintained_by": "Pedro Quevedo + Claude AI",
+    "config_version": "1.0"
+  }
+}
